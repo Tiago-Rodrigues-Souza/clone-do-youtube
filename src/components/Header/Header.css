@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  height: 14vh;
+  padding: 0 10px;
+}
+
+nav svg {
+  font-size: 2.4em;
+  cursor: pointer;
+  display: flex;
+  padding: 0 6px;
+}
