@@ -1,8 +1,6 @@
 import React from "react";
 
 import "./Thumb.css";
-//import th_1 from "../../assets/th_1.jpg";
-//import logo_1 from "../../assets/logo_1.png";
 
 function ThumbCard({image, logo, title, nome}) {
   return (
