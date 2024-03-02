@@ -1,19 +1,18 @@
 import React from "react";
 
 import "./Thumb.css";
+//import th_1 from "../../assets/th_1.jpg";
+//import logo_1 from "../../assets/logo_1.png";
 
-import th_1 from "../../assets/th_1.jpg";
-import logo_1 from "../../assets/logo_1.png";
-
-function ThumbCard() {
+function ThumbCard({image, logo, title, nome}) {
   return (
     <section>
-      <img className="thumb" src={th_1} alt="" />
+      <img className="thumb" src={image} alt="" />
       <div className="info-do-canal">
-        <img className="logo-do-canal" src={logo_1} alt="" />
+        <img className="logo-do-canal" src={logo} alt="" />
         <div className="text-canal">
-          <h5>Aprendendo a programar com a Rocketseat</h5>
-          <p>Rocktseat</p>
+          <h5>{title}</h5>
+          <p>{nome}</p>
         </div>
       </div>
     </section>
@@ -21,3 +20,4 @@ function ThumbCard() {
 }
 
 export default ThumbCard;
+
